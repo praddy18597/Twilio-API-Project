@@ -73,7 +73,30 @@ pip install twilio
 
 ### Flask app
 
-[Complimentr Flask GitHub repository](https://github.com/craigsdennis/intro-to-apis-flask) is located at `https://github.com/craigsdennis/intro-to-apis-flask.git`
+# Example Application - Complimentr
+
+
+## Use this on Glitch
+
+[Remix on Glitch](https://glitch.com/edit/#!/import/git?url=https://github.com/craigsdennis/intro-to-apis-flask)
+
+
+## Local Installation
+
+Copy `.env.example` to `.env` and update it with your [Twilio](https://twilio.com) credentials.
+
+### Running the application
+
+* `python -m venv .venv`
+* `source ./.venv/bin/activate`
+* `pip install -r requirements.txt`
+* `FLASK_ENV=development flask run`
+
+#### In Development mode
+
+* Run [ngrok](https://ngrok.com/) on port 5000
+* Visit your ngrok url!
+
 
 * [Twilio docs - Create a Message with Python](https://www.twilio.com/docs/sms/api/message-resource?code-sample=code-create-a-message&code-language=Python&utm_source=gh-link&utm_medium=referral&utm_campaign=intro-to-apis)
 * [Twilio docs - List all Messages with Python](https://www.twilio.com/docs/sms/api/message-resource?utm_source=gh-link&utm_medium=referral&utm_campaign=intro-to-apis&code-sample=code-read-list-all-messages&code-language=Python)
