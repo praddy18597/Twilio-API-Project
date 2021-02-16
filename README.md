@@ -68,6 +68,9 @@ To use the [Twilio Python Helper Library](https://www.twilio.com/docs/libraries/
 pip install twilio
 ```
 
+All The Text Messages from Twilio Number to my Phone number via Command Line, Postman and helper libraries using python.
+
+![picture alt](Screenshots%20Postman/Text%20Message.png "Text Message")
 
 ### Introducing the project
 
