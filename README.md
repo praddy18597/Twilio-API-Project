@@ -39,6 +39,9 @@ https://api.twilio.com/2010-04-01/Accounts/<Your Account SID Here>/Messages.json
 
 Make sure to replace that `SID` with your Account SID which can be found in the [Twilio console](https://twilio.com/console)
 
+![picture alt](Screenshots%20Postman/Postman%20GET.PNG "Postman GET")
+
+
 
 ### Using Helper Libraries (JavaScript)
 
